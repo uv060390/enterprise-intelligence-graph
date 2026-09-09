@@ -53,7 +53,7 @@ Companion project: [claims-rework-agent](https://github.com/uv060390/claims-rewo
 |---|---|---|
 | 0 | Scaffold, design contracts, Neo4j+GDS compose, CI | ✅ |
 | 1 | Synthetic 8-system world — 160 providers, 58.7k claim lines, [12 injected anomalies + ER traps](docs/data-dictionary.md) | ✅ |
-| 2 | 8 lightweight mock systems | ⬜ |
+| 2 | 8 mock systems — distinct auth/pagination/format dialects, one process | ✅ |
 | 3 | Ingestion → raw SourceRecord graph | ⬜ |
 | 4 | Entity resolution: keys → fuzzy → LLM adjudicator (zero-wrong-merge gate) | ⬜ |
 | 5 | GDS cohorts + outlier scoring + detection eval | ⬜ |

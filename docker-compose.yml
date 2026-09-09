@@ -20,5 +20,23 @@ services:
     volumes:
       - neo4j-data:/data
 
+  # The eight mock source systems, one process. Extracts generate at startup, so the
+  # first boot takes a few seconds longer than later ones.
+  mocks:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8010:8010"
+    command: ["uvicorn", "mocks.app:app", "--host", "0.0.0.0", "--port", "8010"]
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - python -c "import urllib.request;urllib.request.urlopen('http://localhost:8010/health')"
+      interval: 5s
+      timeout: 5s
+      retries: 24
+      start_period: 30s
+
 volumes:
   neo4j-data:
