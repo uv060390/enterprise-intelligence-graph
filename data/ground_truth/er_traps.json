@@ -1,0 +1,89 @@
+[
+  {
+    "kind": "same_name_distinct",
+    "entity_ids": [
+      "P-0007",
+      "P-0030"
+    ],
+    "note": "Distinct providers both named 'A. Mbeki' — Anita Mbeki in MKT-ATX vs Arjun Mbeki in MKT-CLT. Different NPIs, TINs and panels: never merge."
+  },
+  {
+    "kind": "same_name_distinct",
+    "entity_ids": [
+      "P-0071",
+      "P-0117"
+    ],
+    "note": "Distinct providers both named 'C. Jensen' — Carlos Jensen in MKT-MSP vs Camila Jensen in MKT-PHX. Different NPIs, TINs and panels: never merge."
+  },
+  {
+    "kind": "same_name_distinct",
+    "entity_ids": [
+      "P-0124",
+      "P-0026"
+    ],
+    "note": "Distinct providers both named 'J. Hoffman' — Jordan Hoffman in MKT-DEN vs Jasmine Hoffman in MKT-DFW. Different NPIs, TINs and panels: never merge."
+  },
+  {
+    "kind": "name_variants_no_npi",
+    "entity_ids": [
+      "P-0097"
+    ],
+    "note": "Maria Tran appears in crm and ticketing with no NPI at all and only divergent free-text name shapes ('Dr. M. Tran' / 'TRAN, MARIA' / 'Maria Tran, BCBA'); claims, credentialing and analytics still carry the true NPI."
+  },
+  {
+    "kind": "name_variants_no_npi",
+    "entity_ids": [
+      "P-0099"
+    ],
+    "note": "Dana Whitfield appears in crm and ticketing with no NPI at all and only divergent free-text name shapes ('Dr. D. Whitfield' / 'WHITFIELD, DANA' / 'Dana Whitfield, BCBA'); claims, credentialing and analytics still carry the true NPI."
+  },
+  {
+    "kind": "name_variants_no_npi",
+    "entity_ids": [
+      "P-0119"
+    ],
+    "note": "Ethan Underwood appears in crm and ticketing with no NPI at all and only divergent free-text name shapes ('Dr. E. Underwood' / 'UNDERWOOD, ETHAN' / 'Ethan Underwood, MD'); claims, credentialing and analytics still carry the true NPI."
+  },
+  {
+    "kind": "name_variants_no_npi",
+    "entity_ids": [
+      "P-0127"
+    ],
+    "note": "Anita Sharma appears in crm and ticketing with no NPI at all and only divergent free-text name shapes ('Dr. A. Sharma' / 'SHARMA, ANITA' / 'Anita Sharma, LCSW'); claims, credentialing and analytics still carry the true NPI."
+  },
+  {
+    "kind": "stale_address",
+    "entity_ids": [
+      "P-0051"
+    ],
+    "note": "Maria Kowalski relocated within MKT-PHX: credentialing still lists 7830 Prairie Creek Rd while crm has 5001 Stonebridge Ct Unit 330."
+  },
+  {
+    "kind": "stale_address",
+    "entity_ids": [
+      "P-0103"
+    ],
+    "note": "Daniel Kowalski relocated within MKT-ATX: credentialing still lists 3185 Prairie Creek Rd while crm has 1905 Juniper Hollow Way Ste 866."
+  },
+  {
+    "kind": "stale_address",
+    "entity_ids": [
+      "P-0130"
+    ],
+    "note": "Kevin Sharma relocated within MKT-DEN: credentialing still lists 5947 Silver Sage Trl while crm has 4339 Copper Mill Rd."
+  },
+  {
+    "kind": "dba_payee",
+    "entity_ids": [
+      "P-0011"
+    ],
+    "note": "finance_mart pays TIN 93-4097093 to payee 'Farida Whitfield Psychiatric Associates' while credentialing holds the legal name 'Farida Whitfield'."
+  },
+  {
+    "kind": "dba_payee",
+    "entity_ids": [
+      "P-0023"
+    ],
+    "note": "finance_mart pays TIN 36-6074992 to payee 'Ramirez Family Therapy' while credentialing holds the legal name 'Carlos Ramirez'."
+  }
+]

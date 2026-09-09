@@ -24,3 +24,7 @@ node_modules/
 
 # os
 .DS_Store
+
+# extracts are NOT committed: byte-identical regeneration from the seed
+# (uv run python data/generate_world.py --seed 42 --out data/extracts)
+data/extracts/

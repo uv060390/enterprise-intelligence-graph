@@ -52,7 +52,7 @@ Companion project: [claims-rework-agent](https://github.com/uv060390/claims-rewo
 | Phase | Deliverable | Status |
 |---|---|---|
 | 0 | Scaffold, design contracts, Neo4j+GDS compose, CI | ✅ |
-| 1 | Synthetic 8-system world + ground truth (crosswalk, injected anomalies) | ⬜ |
+| 1 | Synthetic 8-system world — 160 providers, 58.7k claim lines, [12 injected anomalies + ER traps](docs/data-dictionary.md) | ✅ |
 | 2 | 8 lightweight mock systems | ⬜ |
 | 3 | Ingestion → raw SourceRecord graph | ⬜ |
 | 4 | Entity resolution: keys → fuzzy → LLM adjudicator (zero-wrong-merge gate) | ⬜ |
@@ -69,6 +69,10 @@ uv sync
 uv run pytest              # offline suite — no Neo4j or API key needed
 docker compose up          # Neo4j 5 Community + Graph Data Science
 # browser: http://localhost:7474  (neo4j / eigraphdev)
+
+uv run python data/generate_world.py --seed 42 --out data/extracts
+# regenerates the full 8-system world byte-identically (~16 MB, not committed);
+# ground truth (crosswalk, anomalies, ER traps) is committed in data/ground_truth/
 ```
 
 Requires Python 3.11+, [uv](https://docs.astral.sh/uv/), and Docker.

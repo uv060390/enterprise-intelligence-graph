@@ -1,0 +1,246 @@
+[
+  {
+    "entity_id": "P-0046",
+    "signature": "volume_spike",
+    "months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "market": "MKT-DEN",
+      "focus_code": "96130",
+      "multiplier": 4.806,
+      "baseline_claims_per_month": 22,
+      "focus_code_share_in_spike": 0.7
+    }
+  },
+  {
+    "entity_id": "P-0139",
+    "signature": "volume_spike",
+    "months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "market": "MKT-ATX",
+      "focus_code": "90846",
+      "multiplier": 4.92,
+      "baseline_claims_per_month": 22,
+      "focus_code_share_in_spike": 0.7
+    }
+  },
+  {
+    "entity_id": "P-0036",
+    "signature": "volume_spike",
+    "months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "market": "MKT-CLT",
+      "focus_code": "96130",
+      "multiplier": 4.618,
+      "baseline_claims_per_month": 27,
+      "focus_code_share_in_spike": 0.7
+    }
+  },
+  {
+    "entity_id": "P-0033",
+    "signature": "denial_surge",
+    "months": [
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "baseline_denial_rate": 0.1102,
+      "surge_denial_rate": 0.5865,
+      "concentrated_reasons": [
+        "CO-197 precertification or authorization absent",
+        "CO-16 claim lacks information needed for adjudication"
+      ]
+    }
+  },
+  {
+    "entity_id": "P-0090",
+    "signature": "denial_surge",
+    "months": [
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "baseline_denial_rate": 0.1208,
+      "surge_denial_rate": 0.482,
+      "concentrated_reasons": [
+        "CO-197 precertification or authorization absent",
+        "CO-16 claim lacks information needed for adjudication"
+      ]
+    }
+  },
+  {
+    "entity_id": "P-0005",
+    "signature": "denial_surge",
+    "months": [
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "baseline_denial_rate": 0.1325,
+      "surge_denial_rate": 0.4743,
+      "concentrated_reasons": [
+        "CO-197 precertification or authorization absent",
+        "CO-16 claim lacks information needed for adjudication"
+      ]
+    }
+  },
+  {
+    "entity_id": "P-0115",
+    "signature": "code_mix_drift",
+    "months": [
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "target_codes": [
+        "90792",
+        "90839"
+      ],
+      "baseline_high_price_share": 0.1062,
+      "drift_high_price_share": 0.6167
+    }
+  },
+  {
+    "entity_id": "P-0043",
+    "signature": "code_mix_drift",
+    "months": [
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "target_codes": [
+        "90792",
+        "90839"
+      ],
+      "baseline_high_price_share": 0.1467,
+      "drift_high_price_share": 0.6641
+    }
+  },
+  {
+    "entity_id": "P-0035",
+    "signature": "code_mix_drift",
+    "months": [
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "target_codes": [
+        "90792",
+        "90839"
+      ],
+      "baseline_high_price_share": 0.1134,
+      "drift_high_price_share": 0.7028
+    }
+  },
+  {
+    "entity_id": "P-0135",
+    "signature": "impossible_volume",
+    "months": [
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "code": "90837",
+      "monthly_units_min": 920,
+      "monthly_units_max": 980,
+      "units_per_line": [
+        3,
+        4
+      ],
+      "concentrated_member_ids": [
+        "MB71057233",
+        "MB86924795",
+        "MB73893835",
+        "MB61469875"
+      ],
+      "note": "Monthly 90837 units exceed 900 — more than 40 sixty-minute sessions per working day — and concentrate on a handful of members."
+    }
+  },
+  {
+    "entity_id": "P-0038",
+    "signature": "impossible_volume",
+    "months": [
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "code": "90837",
+      "monthly_units_min": 920,
+      "monthly_units_max": 980,
+      "units_per_line": [
+        3,
+        4
+      ],
+      "concentrated_member_ids": [
+        "MB21204188",
+        "MB03296743",
+        "MB58718382",
+        "MB44773484",
+        "MB85791097"
+      ],
+      "note": "Monthly 90837 units exceed 900 — more than 40 sixty-minute sessions per working day — and concentrate on a handful of members."
+    }
+  },
+  {
+    "entity_id": "P-0110",
+    "signature": "impossible_volume",
+    "months": [
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "details": {
+      "code": "90837",
+      "monthly_units_min": 920,
+      "monthly_units_max": 980,
+      "units_per_line": [
+        3,
+        4
+      ],
+      "concentrated_member_ids": [
+        "MB45929418",
+        "MB92051321",
+        "MB29576862",
+        "MB12766765"
+      ],
+      "note": "Monthly 90837 units exceed 900 — more than 40 sixty-minute sessions per working day — and concentrate on a handful of members."
+    }
+  }
+]
